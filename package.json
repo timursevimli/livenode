@@ -1,0 +1,40 @@
+{
+  "name": "livemon",
+  "version": "0.0.1",
+  "description": "Watch and restart in tracks changes",
+  "author": "Timur Sevimli <svmlitimur@gmail.com>",
+  "main": "./bin/livemon.js",
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  },
+  "bin": {
+    "tmon": "./bin/livemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timursevimli/livemon.git"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint . && prettier -c '**/*.js' '**/*.json' '**/*.md'",
+    "fmt": "prettier --write '**/*.js' '**/*.json' '**/*.md'"
+  },
+  "keywords": [
+    "livemon",
+    "monitor",
+    "watch",
+    "fs",
+    "auto",
+    "restart"
+  ],
+  "bugs": {
+    "url": "https://github.com/timursevimli/livemon/issues",
+    "email": "svmlitimur+github@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "prettier": "^3.0.1"
+  }
+}
