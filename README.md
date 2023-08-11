@@ -1,21 +1,21 @@
-# livemon
+# livenode
 
 Watch and restart in tracks changes
 
 ### Install
 
 ```bash
-npm install -g livemon
+npm install -g livenode
 ```
 
 ### Usage
 
 ```bash
-livemon <your-app.js>
+livenode <your-app.js>
 ```
 
 ### Example
 
 ```bash
-livemon server.js
+livenode server.js
 ```
