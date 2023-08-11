@@ -1,19 +1,19 @@
 {
-  "name": "livemon",
+  "name": "livenode",
   "version": "0.0.1",
   "description": "Watch and restart in tracks changes",
   "author": "Timur Sevimli <svmlitimur@gmail.com>",
-  "main": "./bin/livemon.js",
+  "main": "./bin/livenode.js",
   "directories": {
     "lib": "lib",
     "bin": "bin"
   },
   "bin": {
-    "tmon": "./bin/livemon.js"
+    "tmon": "./bin/livenode.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/timursevimli/livemon.git"
+    "url": "https://github.com/timursevimli/livenode.git"
   },
   "scripts": {
     "test": "npm run lint",
@@ -21,7 +21,7 @@
     "fmt": "prettier --write '**/*.js' '**/*.json' '**/*.md'"
   },
   "keywords": [
-    "livemon",
+    "livenode",
     "monitor",
     "watch",
     "fs",
@@ -29,7 +29,7 @@
     "restart"
   ],
   "bugs": {
-    "url": "https://github.com/timursevimli/livemon/issues",
+    "url": "https://github.com/timursevimli/livenode/issues",
     "email": "svmlitimur+github@gmail.com"
   },
   "license": "MIT",
